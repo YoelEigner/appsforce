@@ -11,7 +11,6 @@ export const ConfirmDelete = ({ openDel, setOpenDel, setOpen, fname, lname }) =>
 
     const handleDelete = () => {
         let idxToDel = users.findIndex(x => x.name.first === fname && x.name.last === lname)
-        console.log(idxToDel)
         dispatch(onDeleteUser(idxToDel))
         setOpen(false)
     };
