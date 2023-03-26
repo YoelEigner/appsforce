@@ -74,7 +74,7 @@ export const Home = () => {
     const [searchLocation, setSearchLocation] = useState("");
 
     const getUser = async () => {
-        await dispatch(onGetUsers());
+        await dispatch(onGetUsers())
 
     };
     useEffect(() => { setFiltered(users); }, [users])
