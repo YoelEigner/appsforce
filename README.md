@@ -1,6 +1,6 @@
 #See the website live
 
-[website](https://appsforsce.web.app/#home)
+[Firebase link](https://appsforsce.web.app/#home)
 
 # Getting Started with Create React App
 
